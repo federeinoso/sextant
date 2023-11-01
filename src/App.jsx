@@ -1,7 +1,7 @@
 import AddressDisplay from "./components/AddressDisplay/AddressDisplay";
 import Banner from "./components/Banner/Banner";
 import Exhibit from "./components/Exhibit/Exhibit";
-
+import PylonConnector from "./components/PylonConnector/PylonConnector";
 import "./App.css";
 
 const App = () => {
@@ -14,6 +14,9 @@ const App = () => {
         </Exhibit>
         <Exhibit name="Public IPv6 Address">
           <AddressDisplay url="https://api64.ipify.org?format=json" />
+        </Exhibit>
+        <Exhibit name="Pylon Packet Latency">
+          <PylonConnector />
         </Exhibit>
       </div>
     </div>
