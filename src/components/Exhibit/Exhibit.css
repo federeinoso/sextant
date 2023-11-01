@@ -1,0 +1,10 @@
+.exhibit-container {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3px 25px;
+  margin-top: 10px;
+}
+
+.exhibit-container:hover {
+  border: 2px solid var(--blue);
+}
